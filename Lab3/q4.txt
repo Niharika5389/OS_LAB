@@ -1,0 +1,6 @@
+echo "Enter value of Basics"
+read Basic
+echo "Enter value of TA"
+read TA
+GS=$(echo "$Basic + $TA + (10*$Basic/100)" | bc)
+echo "Gross Salary is $GS"

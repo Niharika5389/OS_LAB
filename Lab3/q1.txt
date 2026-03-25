@@ -1,0 +1,7 @@
+echo "Enter file name"
+read file
+if [ -d "$file" ]; then
+	echo "It is a directory"
+elif [ -f "$file" ]; then
+	echo "It is a file"
+fi

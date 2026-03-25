@@ -1,0 +1,50 @@
+NIHARIKA GAWADE 240905284
+CSE-D
+LAB1 
+
+					QUESTION 1
+
+1.
+	mkdir - create directory
+	mca@computinglab25-36:~$ mkdir Niharika_240905284
+2.
+	cd - change directory
+	mca@computinglab25-36:~$ cd Niharika_240905284
+	mca@computinglab25-36:~/Niharika_240905284$ 
+3.
+	ls - list all items in the directory
+	mca@computinglab25-36:~/Niharika_240905284/Lab1$ ls
+	Lab1_1.txt
+4.
+	pwd - tells the present working directory
+	mca@computinglab25-36:~/Niharika_240905284/Lab1$ pwd
+	/home/mca/Niharika_240905284/Lab1
+
+5.
+	man - to get more information about another command
+	mca@computinglab25-36:~/Niharika_240905284/Lab1$ man ls
+
+NAME
+       ls - list directory contents
+
+SYNOPSIS
+       ls [OPTION]... [FILE]...
+
+DESCRIPTION
+       List  information  about  the FILEs (the current directory by default).
+       Sort entries alphabetically if none of -cftuvSUX nor --sort  is  speci‐
+       fied.
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       -a, --all
+              do not ignore entries starting with .
+
+       -A, --almost-all
+              do not list implied . and ..
+
+       --author
+ Manual page ls(1) line 1 (press h for help or q to quit)
+
+

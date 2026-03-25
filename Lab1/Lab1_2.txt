@@ -1,0 +1,93 @@
+NIHARIKA GAWADE 240905284
+CSE-D
+LAB1 
+
+					QUESTION 2
+a) cat
+
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ cat > f1.txt
+good morning
+
+^C
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ cat f1.txt
+good morning
+
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ rm f.txt
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ cat >> f1.txt
+hello world
+
+^C
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ cat f1.txt
+good morning
+
+hello world
+
+
+b)head tail
+
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ head -1 f1.txt
+helloo
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ tail -2 f1.txt
+byee
+
+
+c)cp 
+
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ cat f2.txt
+bye
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ cp -n f1.txt f2.txt
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ cat f2.txt
+bye
+
+
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ cp -i f1.txt f2.txt
+cp: overwrite 'f2.txt'? y  
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ cat f2.txt
+helloo
+hii
+byee
+
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ cat f2.txt
+bye
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ cp -f f1.txt f2.txt
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ cat f2.txt
+helloo
+hii
+byee
+
+d)mv
+
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ mv -f m1 m2
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ ls m2
+m1
+
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ mv -i f1.txt f2.txt
+mv: overwrite 'f2.txt'? y
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ cat f2.txt
+helloo
+hii
+byee
+
+e)rm
+
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ ls m2
+m1
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ rm -r m2/m1
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ ls m2
+
+f)rmdir
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ mkdir m1
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ mkdir m2
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ rmdir m1
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ ls
+f2.txt  f.txt  Lab1_1.txt  Lab1_2.txt  Lab1_3.txt  m2
+
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ rmdir -v m2
+rmdir: removing directory, 'm2'
+
+g)find
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ find f2.txt
+f2.txt
+
+
+

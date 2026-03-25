@@ -1,0 +1,7 @@
+echo "Enter file name"
+read file
+x=`wc -l < "$file"`
+for((i=1;i<=x;i+=2)); do
+	sed -i "${i}d" "$file"
+
+done

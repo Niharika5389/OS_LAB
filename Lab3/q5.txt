@@ -1,0 +1,5 @@
+echo "Enter file type and folder"
+read file folder
+for i in *"$file"; do
+	mv "$i" "$folder"
+done

@@ -1,0 +1,4 @@
+for file in *; do
+  [ -f "$file" ] || continue
+  sed -i -E 's/(^|[.])ex:/\1Example:/g' "$file"
+done

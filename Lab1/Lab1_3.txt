@@ -1,0 +1,29 @@
+NIHARIKA GAWADE 240905284
+CSE-D
+LAB1 
+
+					QUESTION 3
+					
+Listing all files having
+
+a) extention .txt
+
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ ls *.txt
+f2.txt  f.txt  Lab1_1.txt  Lab1_2.txt  Lab1_3.txt
+
+b) atleast 1 digit
+
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ ls *[0-9]*.txt
+f2.txt  Lab1_1.txt  Lab1_2.txt  Lab1_3.txt
+
+c) min length 4
+
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ ls ????*
+f2.txt  f.txt  Lab1_1.txt  Lab1_2.txt  Lab1_3.txt
+
+d) no vowels as start letter
+
+mca@computinglab25-36:~/Niharika_240905284/Lab1$ ls [!AEIOUaeiou]*
+f2.txt  f.txt  Lab1_1.txt  Lab1_2.txt  Lab1_3.txt
+
+

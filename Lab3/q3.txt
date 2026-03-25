@@ -1,0 +1,4 @@
+x=`ls *.txt`
+for file in $x; do
+	mv "$file" "${file%.txt}".text 
+done
