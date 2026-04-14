@@ -23,7 +23,7 @@ void LOOK(int req[], int n, int head) {
     sort(req, n);
 
     for (int i = n - 1; i >= 0; i--) {
-        if (req[i] < head) {
+        if (req[i] <= head) {
             total += absDiff(head, req[i]);
             head = req[i];
         }
@@ -55,6 +55,7 @@ void CLOOK(int req[], int n, int head) {
     }
 
     if (pos > 0)
+        total += absDiff(head, req[0]);
         head = req[0];
 
     for (i = 1; i < pos; i++) {
